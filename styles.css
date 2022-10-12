@@ -37,10 +37,19 @@ body {
     color: white;
 }
 
+#day {
+    color: white;
+}
+
 .logo {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+p {
+    text-transform: capitalize;
+    margin-bottom: 20px;
 }
 
 .content {
