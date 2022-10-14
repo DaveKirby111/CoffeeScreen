@@ -1,39 +1,20 @@
 
-let date = new Date();
-let dayOfWeekNumber = date.getDay();
-let nameOfDay;
+function theday() {
 
-switch(dayOfWeekNumber){
-    case 0: 
-        nameOfDay = 'Sunday';
-        
-        break;
-    case 1:
-        nameOfDay = 'Monday';
-        
-        break;
-    case 2:
-        nameOfDay = 'Tuesday';
-        
-        break;
-    case 3:
-        nameOfDay = 'Wednesday';
-        
-        break;
-    case 4:
-        nameOfDay = 'Thursday';
-        
-        break;
-    case 5:
-        nameOfDay = 'Friday';
-       
-        break;
-    case 6:
-        nameOfDay = 'Saturday';
-        
-        break;
+const days = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+];
+
+const d = new Date();
+
+let day = days[d.getDay()];
+
+document.getElementById("day").innerHTML = day;
 
 }
-
-let weekdayDiv = document.getElementById('day');
-weekdayDiv.innerHTML = `${nameOfDay}`;

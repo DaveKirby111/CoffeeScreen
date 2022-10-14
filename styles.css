@@ -31,8 +31,24 @@ body {
 .header {
     padding: 15px;
 
+    display: flex;
+    align-items: center;
+
     background-color: #00adee;
     color: white;
+}
+
+.date-cont {
+    width: 300px;
+    text-align: center;
+}
+
+.theday {
+    font-size: 50px;
+}
+
+.thedate {
+    font-size: 25px;
 }
 
 .logo {
@@ -44,6 +60,8 @@ body {
 
 .time-cont {
     text-align: right;
+    width: 300px;
+    font-size: 50px;
 }
 
 .main {
@@ -94,6 +112,10 @@ body {
     background-color: rgba(128, 128, 128, 0.5);
 
     overflow: hidden;
+}
+
+.facts {
+    border: 1px solid black;
 }
 
 .item {

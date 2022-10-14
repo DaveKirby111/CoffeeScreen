@@ -9,15 +9,20 @@
         <script src="js/day.js"></script>
         <script src="js/date.js"></script>
     </head>
-    <body>
+    <body onload="thedate(), theday()">
 
     <div class="header">
 
         <div class="date-cont">
 
-        <div class="thedate">
+        <div class="theday">
 
         <p id="day"></p>
+
+        </div>
+
+        <div class="thedate">
+
         <p id="date"></p>
 
         </div>
@@ -26,7 +31,7 @@
 
         <div class="logo">
 
-        <a href="index.html">
+        <a href="index.php">
         <img src="images/kegerator-logo copy.png" alt="Kinetic">
         </a>
 
@@ -55,7 +60,9 @@
 
     <div class="slider">
 
-        <div class="item">
+    
+
+    <div class="item">
 
             <p>Fun Fact:</p>
             <p>Coffee dates back to 800 A.D.</p>
@@ -240,6 +247,13 @@
             <p>Coffee grounds act as exfoliators that can lift dead skin cells</p>
 
         </div>
+
+
+
+        
+
+
+    </div>
 
     </div>
 
